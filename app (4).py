@@ -38,4 +38,4 @@ if st.button("Predict"):
     prediction = model.predict(features)
     role = encoder.inverse_transform(prediction)
 
-    st.success(f"🎯 Predicted Job Role: {role[0]}")
+    st.success(f" Predicted Job Role: {role[0]}")
