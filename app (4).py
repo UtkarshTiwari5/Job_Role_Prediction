@@ -7,7 +7,7 @@ import numpy as np
 model = joblib.load("job_role_model.pkl")
 encoder = joblib.load("label_encoder.pkl")
 
-st.title("💼 Job Role Prediction")
+st.title("Job Role Prediction")
 st.write("Adjust the sliders to predict the suitable job role.")
 
 # Input Sliders
